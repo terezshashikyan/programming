@@ -1,0 +1,562 @@
+
+.body{
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    color: #37434E;
+    font-family: 'Source San Pro';
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ....HEADER................................................................... */
+
+
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background:white;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    width: 1920px;
+    height: 64px;
+}
+.logo {
+    position: absolute;
+    height: 37 px;
+    width: 166px;
+    left: 300px;
+    top: 18px;
+    border-radius: 0px;
+
+    
+}
+
+.menu {
+    position: absolute;
+    height: 42px;
+    width: 760px;
+    left: 860px;
+    top: 11px;
+    border-radius: 131px;
+
+    
+}
+
+.menuList{
+    display:flex;
+    list-style: none;
+}
+
+.menuItem {
+   margin: 0px 20px 0px 0px;
+}
+
+.menuItemLink {
+    font-family: 'Source San Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #37434E
+}
+
+.menuButton {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 42px;
+
+    border: 1px solid #8276FF;
+    box-sizing: border-box;
+    border-radius: 131px;
+    border: 1px solid #8276FF;
+}
+
+/* ....MAIN................................................................... */
+.main{
+    flex: 1 1 auto;
+}
+
+.mainBlockBody {
+    position: absolute;
+    width: 1920px;
+    height: 705.73px;
+    left: 0px;
+    top: 64px;
+    background: rgba(248, 248, 251, 0.7);
+}
+
+.mainBlockTitle {
+    position: absolute;
+    width: 382px;
+    height: 63px;
+    left: 769px;
+    top: 144px;
+}
+
+.mainBlockText1 {
+    position: absolute;
+    width: 623px;
+    height: 49px;
+    left: 648px;
+    top: 227px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 153% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #4D5B67;
+    
+
+    
+}
+
+.mainBlockButton{
+position: absolute;
+width: 229px;
+height: 49px;
+left: 845px;
+top: 317px;
+background: #8276FF;
+box-shadow: 0px 4.07788px 14.2726px rgba(130, 118, 255, 0.3);
+border-radius: 31.0938px;
+display:flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+
+
+.mainBlockText2 {
+    position: absolute;
+width: 281px;
+height: 18px;
+left: 819px;
+top: 378px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFC107;
+
+}
+
+.services1 {
+    position: absolute;
+    width: 1319px;
+    height: 666.5px;
+    left: 330px;
+    top: 454px;
+}
+
+.services2 {
+position: absolute;
+width: 659.5px;
+height: 573px;
+left: 300px;
+top: 1184px;
+}
+
+.services3{
+    position: absolute;
+width: 545px;
+height: 573px;
+top: 1225px;
+left: 1075px;
+
+}
+
+.services3_1 {
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.005em;
+    
+    color: #37434E;
+    
+}
+
+.services3_2 {
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.01em;
+color: #4D5B67;
+
+}
+
+.services3_3 {
+ 
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.01em;
+color: #4D5B67;
+
+}
+
+.services4 {
+position: absolute;
+width: 1920px;
+height: 475px;
+left: 0px;
+top: 1803px;
+
+background: rgba(99, 133, 253, 0.7);
+border-radius: 0px;
+}
+
+.services4TextPart {
+    position: absolute;
+    width: 445px;
+    left: 314px;
+    padding-top: 100px;
+}
+.services4Title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    
+    color: #FFFFFF;
+    
+}
+
+.services4Text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+
+.services4Img {
+    position: absolute;
+    width: 677px;
+    height: 465.5px;
+    left: 1027px;
+ 
+}
+
+.services5_text1 {
+    position: absolute;
+width: 236px;
+height: 25px;
+left: 890px;
+top: 2408px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #FFBE5B;
+}
+
+.services5_text2 {
+    position: absolute;
+    width: 679px;
+    height: 49px;
+    left: 654px;
+    top: 2446px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    
+    color: #37434E;  
+    
+}
+
+.services5Menu {
+    position: absolute;
+width: 516px;
+height: 435px;
+left: 300px;
+top: 2582px;
+padding: 70px 70px 70px 70px ;
+
+}
+
+
+.memberType {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #37434E;
+text-decoration: none;
+padding: 20px;
+}
+
+.services5Img {
+    height: 346px;
+width: 736.5px;
+left: 889px;
+top: 2624px;
+border-radius: 0px;
+position: absolute;
+}
+
+.title {
+    position: absolute;
+width: 146px;
+height: 25px;
+left: 887px;
+top: 3226px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 24px;
+/* identical to box height, or 63% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #37434E;
+
+
+}
+
+
+
+.featuresItem {
+ position: absolute;
+width: 290px;
+height: 264px;
+top: 3354px;
+
+background: #FFFFFF;
+box-shadow: -3px 6px 19.8942px rgba(0, 79, 123, 0.05);
+border-radius: 20px;
+padding: 50px;
+}
+
+.item1 {
+    left: 450px;
+}
+
+.item2 {
+    left: 870px;
+}
+
+.item3{
+    left: 1300px;
+}
+.itemTitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 128%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #37434E;
+}
+
+.itemText {
+position: absolute;
+width: 218px;
+height: 98px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #4D5B67;
+}
+
+.questionsTitle {
+width: 67px;
+height: 36px;
+left: 927px;
+top: 3890px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 36px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+color: #37434E;
+}
+
+.questions {
+position: absolute;
+left: 539px;
+top: 3984px;
+}
+
+.questionLink {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 34px;
+
+align-items: center;
+letter-spacing: 0.005em;
+text-decoration: none ;
+padding: 20px;
+
+
+color: #37434E;
+}
+
+.finalTitle {
+    position: absolute;
+width: 517px;
+height: 96px;
+left: 701px;
+top: 4762px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 48px;
+/* or 155% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #37434E;
+
+}
+
+.finalInput {
+    position: absolute;
+width: 428px;
+height: 56px;
+left: 626px;
+top: 4899px;
+
+background: #FAFEFF;
+border: 1.5px solid #F3F1FF;
+box-sizing: border-box;
+border-radius: 28.5px;
+padding: 30px;
+}
+
+.finalButton {
+    position: absolute;
+width: 232px;
+height: 55.89px;
+left: 1062px;
+top: 4899px;
+
+background: #8276FF;
+border-radius: 30.5px;
+color: white;
+border-color: white;
+}
+
+.finalText {
+    position: absolute;
+width: 367px;
+height: 18px;
+left: 626px;
+top: 4962px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFC107;
+
+}
+/* ....FOOTER................................................................... */
+.finalMenuItemLink {
+    position: absolute;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: black;
+
+}
+
+.finalMenu {
+position: absolute;
+left: 304px;
+top: 5103px;
+width: 400px
+}
